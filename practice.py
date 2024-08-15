@@ -6,8 +6,8 @@ print(list(array))
 for i in range(1,6):
     print(i)
 
-num = 9
-if num >= 10:
-    print("nigga MOVE!")
-elif num < 10:
-    print("hell nah")
+num = 10
+if num%2==0:
+    print("짝수입니다.")
+else:
+    print("홀수입니다.")
